@@ -1,0 +1,63 @@
+Package: tsExpKit
+Maintainer: Christoph Bergmeir <c.bergmeir@decsai.ugr.es>
+License: GPL (>= 2)
+Title: Experimentation Kit for Time Series Analysis.
+Type: Package
+LazyLoad: yes
+Author: Christoph Bergmeir <c.bergmeir@decsai.ugr.es>
+Description: Implements a lot of tasks common in the analysis of time
+    series predictors, such as embedding and preprocessing, time series
+    simulation, partitioning into training, test, and validation set.
+    Also present are some functions for error calculation and
+    analysis/visualization.
+Version: 0.1
+Depends:
+    R (>= 2.10.0),
+    tseriesChaos,
+    zoo,
+    tseries,
+    tools,
+Date: 2013-01-29
+Suggests:
+    scatterplot3d,
+    R.matlab,
+    multicore,
+    RSNNS,
+    combinat,
+    TSA,
+    fNonlinear,
+    Rsge,
+    e1071,
+    lars,
+    nnet,
+    snow,
+    tsDyn,
+    class,
+    dtw,
+    forecast,
+    mgcv,
+    pastecs,
+    entropy,
+    wavelets,
+    fractaldim
+Encoding: UTF-8
+Collate:
+    'aTS-methods.R'
+    'aTS.R'
+    'atsDirectoryProcessing.R'
+    'atsList.R'
+    'atsListIO.R'
+    'computePartitionIndices.R'
+    'dataComplexity.R'
+    'eTS-methods.R'
+    'eTS.R'
+    'experimentRunning.R'
+    'measureError.R'
+    'normalizeData.R'
+    'parallelProcessing.R'
+    'postEvaluation.R'
+    'simulateTS.R'
+    'tsExpKit-package.R'
+    'util.R'
+    'rKeelAtsIO.R'
+    'rKeelIO.R'
